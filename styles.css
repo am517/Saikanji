@@ -1,250 +1,250 @@
 :root {
-    color-scheme: dark;
-    --bg: #101111;
-    --panel: #171918;
-    --panel-strong: #202321;
-    --text: #f4f1e8;
-    --muted: #b8b2a4;
-    --line: #343730;
+    color-scheme: light;
+    --bg: #ffffff;
+    --panel: #ffffff;
+    --panel-strong: #f5f1e8;
+    --text: #171817;
+    --muted: #625f57;
+    --line: #ded8cc;
     --accent: #d8b75a;
-    --accent-strong: #f0cc68;
-    --shadow: 0 24px 70px rgba(0, 0, 0, 0.38);
+    --accent-strong: #946f00;
+    --shadow: 0 22px 60px rgba(34, 28, 18, 0.12);
 }
 
 @font-face {
     font-family: "SaiKanji Balanced Light Gradient Grid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Balanced-Light.Gradient.Grid.woff2")
+    src: url("fonts/SaiKanji.Balanced-Light.Gradient.Grid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Balanced Light Gradient";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Balanced-Light.Gradient.woff2")
+    src: url("fonts/SaiKanji.Balanced-Light.Gradient.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Balanced Light Solid Grid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Balanced-Light.Solid.Grid.woff2")
+    src: url("fonts/SaiKanji.Balanced-Light.Solid.Grid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Balanced Light Solid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Balanced-Light.Solid.woff2")
+    src: url("fonts/SaiKanji.Balanced-Light.Solid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Balanced Gradient Grid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Balanced.Gradient.Grid.woff2")
+    src: url("fonts/SaiKanji.Balanced.Gradient.Grid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Balanced Gradient";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Balanced.Gradient.woff2")
+    src: url("fonts/SaiKanji.Balanced.Gradient.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Balanced Solid Grid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Balanced.Solid.Grid.woff2")
+    src: url("fonts/SaiKanji.Balanced.Solid.Grid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Balanced Solid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Balanced.Solid.woff2")
+    src: url("fonts/SaiKanji.Balanced.Solid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Black Grid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Black.Grid.woff2")
+    src: url("fonts/SaiKanji.Black.Grid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Black";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Black.woff2")
+    src: url("fonts/SaiKanji.Black.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Contrast Light Gradient Grid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Contrast-Light.Gradient.Grid.woff2")
+    src: url("fonts/SaiKanji.Contrast-Light.Gradient.Grid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Contrast Light Gradient";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Contrast-Light.Gradient.woff2")
+    src: url("fonts/SaiKanji.Contrast-Light.Gradient.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Contrast Light Solid Grid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Contrast-Light.Solid.Grid.woff2")
+    src: url("fonts/SaiKanji.Contrast-Light.Solid.Grid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Contrast Light Solid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Contrast-Light.Solid.woff2")
+    src: url("fonts/SaiKanji.Contrast-Light.Solid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Contrast Gradient Grid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Contrast.Gradient.Grid.woff2")
+    src: url("fonts/SaiKanji.Contrast.Gradient.Grid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Contrast Gradient";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Contrast.Gradient.woff2")
+    src: url("fonts/SaiKanji.Contrast.Gradient.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Contrast Solid Grid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Contrast.Solid.Grid.woff2")
+    src: url("fonts/SaiKanji.Contrast.Solid.Grid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Contrast Solid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Contrast.Solid.woff2")
+    src: url("fonts/SaiKanji.Contrast.Solid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Regular Light Gradient Grid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Regular-Light.Gradient.Grid.woff2")
+    src: url("fonts/SaiKanji.Regular-Light.Gradient.Grid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Regular Light Gradient";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Regular-Light.Gradient.woff2")
+    src: url("fonts/SaiKanji.Regular-Light.Gradient.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Regular Light Solid Grid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Regular-Light.Solid.Grid.woff2")
+    src: url("fonts/SaiKanji.Regular-Light.Solid.Grid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Regular Light Solid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Regular-Light.Solid.woff2")
+    src: url("fonts/SaiKanji.Regular-Light.Solid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Regular Gradient Grid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Regular.Gradient.Grid.woff2")
+    src: url("fonts/SaiKanji.Regular.Gradient.Grid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Regular Gradient";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Regular.Gradient.woff2")
+    src: url("fonts/SaiKanji.Regular.Gradient.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Regular Solid Grid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Regular.Solid.Grid.woff2")
+    src: url("fonts/SaiKanji.Regular.Solid.Grid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Regular Solid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Regular.Solid.woff2")
+    src: url("fonts/SaiKanji.Regular.Solid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Spectrum Light Gradient Grid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Spectrum-Light.Gradient.Grid.woff2")
+    src: url("fonts/SaiKanji.Spectrum-Light.Gradient.Grid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Spectrum Light Gradient";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Spectrum-Light.Gradient.woff2")
+    src: url("fonts/SaiKanji.Spectrum-Light.Gradient.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Spectrum Light Solid Grid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Spectrum-Light.Solid.Grid.woff2")
+    src: url("fonts/SaiKanji.Spectrum-Light.Solid.Grid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Spectrum Light Solid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Spectrum-Light.Solid.woff2")
+    src: url("fonts/SaiKanji.Spectrum-Light.Solid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Spectrum Gradient Grid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Spectrum.Gradient.Grid.woff2")
+    src: url("fonts/SaiKanji.Spectrum.Gradient.Grid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Spectrum Gradient";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Spectrum.Gradient.woff2")
+    src: url("fonts/SaiKanji.Spectrum.Gradient.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Spectrum Solid Grid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Spectrum.Solid.Grid.woff2")
+    src: url("fonts/SaiKanji.Spectrum.Solid.Grid.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Spectrum Solid";
-    src: url("https://github.com/am517/SaiKanji/releases/download/v0.010/SaiKanji.Spectrum.Solid.woff2")
+    src: url("fonts/SaiKanji.Spectrum.Solid.woff2")
         format("woff2");
     font-display: swap;
 }
@@ -260,8 +260,8 @@ html {
 body {
     margin: 0;
     background:
-        radial-gradient(circle at top left, rgba(216, 183, 90, 0.14), transparent 36rem),
-        linear-gradient(180deg, #111211 0%, #161613 48%, #101111 100%);
+        linear-gradient(180deg, rgba(216, 183, 90, 0.12), transparent 460px),
+        var(--bg);
     color: var(--text);
     font-family:
         Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
@@ -306,7 +306,7 @@ footer {
     width: 36px;
     height: 36px;
     border: 1px solid var(--line);
-    background: var(--panel);
+    background: var(--text);
     color: var(--accent-strong);
 }
 
@@ -321,16 +321,20 @@ footer {
 }
 
 .intro {
-    display: grid;
-    grid-template-columns: minmax(0, 1.05fr) minmax(300px, 0.95fr);
-    gap: 40px;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    align-items: stretch;
     padding: 64px 0 44px;
 }
 
 .intro-copy,
 .section-heading {
     max-width: 720px;
+}
+
+.intro-copy {
+    max-width: 860px;
 }
 
 .eyebrow {
@@ -395,7 +399,7 @@ p {
     justify-content: center;
     padding: 10px 16px;
     border: 1px solid var(--line);
-    background: rgba(255, 255, 255, 0.03);
+    background: rgba(255, 255, 255, 0.75);
     color: var(--text);
     font-weight: 700;
     text-decoration: none;
@@ -414,7 +418,8 @@ p {
 .intro-figure img {
     display: block;
     width: 100%;
-    aspect-ratio: 4 / 3;
+    max-height: 620px;
+    aspect-ratio: 16 / 9;
     object-fit: cover;
     border: 1px solid var(--line);
     box-shadow: var(--shadow);
@@ -430,7 +435,7 @@ p {
 
 .demo-panel {
     border: 1px solid var(--line);
-    background: rgba(23, 25, 24, 0.9);
+    background: var(--panel);
     box-shadow: var(--shadow);
 }
 
@@ -441,7 +446,7 @@ p {
     justify-content: center;
     padding: 28px;
     border-bottom: 1px solid var(--line);
-    background: #f6f1e4;
+    background: #fbf7ec;
     color: #111;
     font-size: clamp(5rem, 17vw, 12rem);
     line-height: 1;
@@ -552,7 +557,7 @@ select {
 .content-grid article,
 .download {
     border: 1px solid var(--line);
-    background: rgba(23, 25, 24, 0.78);
+    background: var(--panel);
     padding: 24px;
 }
 
