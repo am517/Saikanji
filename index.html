@@ -12,25 +12,21 @@
             rel="icon"
             href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23171918'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-size='38' fill='%23f0cc68'%3E彩%3C/text%3E%3C/svg%3E"
         />
-        <link rel="preconnect" href="https://github.com" />
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
         <header class="site-header">
             <nav class="nav" aria-label="Primary">
-                <a class="brand" href="#top" aria-label="SaiKanji home">
-                    <span class="brand-mark">彩</span>
-                    <span>SaiKanji</span>
-                </a>
                 <div class="nav-links">
                     <a href="#demo">Demo</a>
-                    <a href="#download">Download</a>
+                    <a href="https://github.com/am517/SaiKanji/releases">Download</a>
                     <a href="https://github.com/am517/SaiKanji">GitHub</a>
                 </div>
             </nav>
 
             <section class="intro" id="top">
                 <div class="intro-copy">
+                    <span>SaiKanji</span>
                     <p class="eyebrow">彩漢字</p>
                     <h1>A color stroke-order font for kanji.</h1>
                     <p class="lede">
@@ -64,8 +60,8 @@
                     <h2 id="demo-title">Type with the release fonts.</h2>
                     <p>
                         Edit the text, then combine palette, fill, light, and
-                        grid options. The selected WOFF2 file is loaded only
-                        when its font family is used.
+                        grid options. Fonts are served from the same site so the
+                        demo works on the custom domain and from a local folder.
                     </p>
                 </div>
 
@@ -174,7 +170,8 @@
                     <p>
                         Install TTF files for desktop use, or use WOFF2 files
                         with <code>@font-face</code> on the web. The current
-                        release is v0.010.
+                        release is v0.010, and the demo uses the WOFF2 files in
+                        the <code>fonts/</code> folder.
                     </p>
                 </div>
                 <a
