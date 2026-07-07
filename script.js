@@ -14,7 +14,6 @@ const currentDownload = document.querySelector("#currentDownload");
 const sectionDownload = document.querySelector("#sectionDownload");
 const fontProgress = document.querySelector("#fontProgress");
 const fontProgressBar = document.querySelector("#fontProgressBar");
-const fontDownloadGrid = document.querySelector("#fontDownloadGrid");
 const fillInputs = Array.from(document.querySelectorAll("input[name='fillStyle']"));
 
 const paletteLabels = {
@@ -76,7 +75,6 @@ function buildFontRecords() {
                     ttfFileName,
                     ttfUrl: `${RELEASE_FONT_BASE_URL}${ttfFileName}`,
                     label: `${colorFile} ${fillFile}${gridKey ? " Grid" : ""}`,
-                    description: `${fillFile.toLowerCase()} color${gridKey ? ", guide grid" : ""}`,
                 });
             }
         }
@@ -95,7 +93,6 @@ function buildFontRecords() {
             ttfFileName,
             ttfUrl: `${RELEASE_FONT_BASE_URL}${ttfFileName}`,
             label: `Black${gridKey ? " Grid" : ""}`,
-            description: `monochrome fallback${gridKey ? ", guide grid" : ""}`,
         });
     }
 
@@ -235,29 +232,15 @@ function updateDemoBackground() {
 
 function changeLanguage(language) {
     document.documentElement.lang = language;
-    document.documentElement.dataset.contentLang =
-        document.querySelector(`.i18n[lang="${language}"]`) ? language : "en";
+    const translationReady =
+        language === "en" ||
+        document.documentElement.dataset.translationReady
+            ?.split(/\s+/)
+            .includes(language);
+    document.documentElement.dataset.contentLang = translationReady
+        ? language
+        : "en";
     localStorage.setItem("saikanji-language", language);
-}
-
-function renderFontDownloads() {
-    fontDownloadGrid.replaceChildren(
-        ...fontRecords.map((font) => {
-            const link = document.createElement("a");
-            link.className = "font-download";
-            link.href = font.ttfUrl;
-            link.download = font.ttfFileName;
-
-            const name = document.createElement("strong");
-            name.textContent = font.label;
-
-            const description = document.createElement("span");
-            description.textContent = font.description;
-
-            link.append(name, description);
-            return link;
-        }),
-    );
 }
 
 function restoreLanguage() {
@@ -273,7 +256,6 @@ function restoreLanguage() {
 demoBackgroundToggle.addEventListener("change", updateDemoBackground);
 langSelect.addEventListener("change", () => changeLanguage(langSelect.value));
 
-renderFontDownloads();
 restoreLanguage();
 updateDemoBackground();
 updateDemoFont();
